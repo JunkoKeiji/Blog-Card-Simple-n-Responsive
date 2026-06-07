@@ -32,9 +32,12 @@
 
 ## Overview
 
-![screenshot](./res/thumbnail1.png)
-![screenshot](./res/thumbnail2.png)
-![screenshot](./res/thumbnail3.png)
+### Desktop View
+(./res/thumbnail1.png)
+### Pad View
+(./res/thumbnail2.png)
+### Mobile View
+(./res/thumbnail3.png)
 
 <!--
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
@@ -47,9 +50,11 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
 Lumayan banyak hal yang pelajari kembali setelah hiatus dari dunia koding beberapa tahun. Beberapa hal utama yang ku pelajari:
-### 1. Responsive Display dengan @media
-### 2. Elipsis di akhir text dengan JavaScript
-### 3. Display menggunakan Grid dan Flex
+<strong>
+1. Responsive Display dengan @media
+2. Elipsis di akhir text dengan JavaScript
+3. Display menggunakan Grid dan Flex
+</strong>
 
 
 ### Built with
