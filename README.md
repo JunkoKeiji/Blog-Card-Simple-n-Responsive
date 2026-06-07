@@ -33,11 +33,11 @@
 ## Overview
 
 ### Desktop View
-[!screenshot](./res/thumbnail1.png)
+![Desktop View](./res/thumbnail1.png)
 ### Pad View
-[!screenshot](./res/thumbnail2.png)
+![Pad View](./res/thumbnail2.png)
 ### Mobile View
-[!screenshot](./res/thumbnail3.png)
+![Mobile View](./res/thumbnail3.png)
 
 <!--
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
