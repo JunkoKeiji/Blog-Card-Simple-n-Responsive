@@ -1,0 +1,84 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	gap:1em;
+
+}
+
+.card:hover,
+:focus{
+	box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.8);
+} 
+.card{
+	width: 336px;
+	padding: 16px;
+	box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+	border-radius: 1em;
+	cursor: pointer;
+	transition: all .5s;
+}
+.card img{
+	width: 100%;
+	max-height: 15vh;
+	object-fit: cover;
+	border-radius: 1em;
+	margin: 1em 0;
+}
+.card .tag{
+	background: #A5C2FF;
+	color: #002471;
+	font-weight: 500;
+	font-size: 0.9rem;
+	padding: 0 1em;
+	border-radius: 1000px;
+}
+.card .line{
+	height: 1px;
+	width: 100%;
+	background: rgba(85, 85, 85, 0.1);
+}
+.card .header{
+	margin: 0;
+	margin: .5em 0;
+}
+.card .text{
+	margin: 0;
+	font-weight: 400;
+	color: gray;
+}
+.card #writter{
+	font-weight: 600;
+	color: gray;
+	font-size: .8em;
+	margin: 0;
+	padding: 0.5em 1em;
+	border-radius: 1000px;
+	transition: all .5s;
+}
+.card #writter:hover,.card #writter:focus {
+	background: #A5C2FF;
+	color: #002471;
+}
+
+@media (width <= 1024px ) {
+	body{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		place-content: center;
+		place-items: center;
+		height: 100vh;
+	}
+}
+@media (width <= 750px ){
+	body{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		overflow-y: scroll;
+	}
+}
