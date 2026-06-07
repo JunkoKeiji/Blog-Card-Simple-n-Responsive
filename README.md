@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://junkokeiji.github.io/Blog-Card-Simple-n-Responsive/">
       Demo
     </a>
     <span>
